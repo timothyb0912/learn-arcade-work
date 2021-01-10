@@ -1,6 +1,7 @@
 # learn-arcade-work
 
-Add a short description here!
+Source code and experiments for learning to use the Arcade package
+to make games and images with Python. 
 
 
 ## Description
