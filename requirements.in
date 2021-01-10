@@ -1,0 +1,6 @@
+arcade
+pip-tools
+pyscaffold
+pyscaffoldext-pyproject
+pyscaffoldext-dsproject
+pyscaffoldext-markdown
