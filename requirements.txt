@@ -8,6 +8,8 @@ alabaster==0.7.12
     # via sphinx
 arcade==2.5.2
     # via -r requirements.in
+arrow==0.17.0
+    # via td-watson
 attrs==20.3.0
     # via
     #   jsonschema
@@ -21,8 +23,13 @@ cffi==1.14.4
     # via pymunk
 chardet==4.0.0
     # via requests
+click-didyoumean==0.0.3
+    # via td-watson
 click==7.1.2
-    # via pip-tools
+    # via
+    #   click-didyoumean
+    #   pip-tools
+    #   td-watson
 commonmark==0.9.1
     # via recommonmark
 docutils==0.16
@@ -73,6 +80,8 @@ pymunk==5.7.0
     # via arcade
 pyparsing==2.4.7
     # via packaging
+pyprojroot==0.2.0
+    # via -r requirements.in
 pyrsistent==0.17.3
     # via jsonschema
 pyscaffold==3.3
@@ -89,6 +98,8 @@ pyscaffoldext-markdown==0.3.2
     #   pyscaffoldext-dsproject
 pyscaffoldext-pyproject==0.2.1
     # via -r requirements.in
+python-dateutil==2.8.1
+    # via arrow
 pytiled-parser==0.9.4a3
     # via arcade
 pytz==2020.5
@@ -100,11 +111,15 @@ pyyaml==5.3.1
 recommonmark==0.7.1
     # via pyscaffoldext-markdown
 requests==2.25.1
-    # via sphinx
+    # via
+    #   sphinx
+    #   td-watson
 shapely==1.7.1
     # via arcade
 six==1.15.0
-    # via jsonschema
+    # via
+    #   jsonschema
+    #   python-dateutil
 snowballstemmer==2.0.0
     # via sphinx
 sphinx==3.4.3
@@ -121,6 +136,8 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.4
     # via sphinx
+td-watson==1.10.0
+    # via -r requirements.in
 toml==0.10.2
     # via jupytext
 traitlets==5.0.5
