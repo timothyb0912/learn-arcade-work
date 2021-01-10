@@ -1,6 +1,7 @@
 arcade
-pip-tools
 jupytext
+pip-tools
+pyprojroot
 pyscaffold
 pyscaffoldext-pyproject
 pyscaffoldext-dsproject
