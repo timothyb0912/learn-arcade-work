@@ -10,7 +10,7 @@ home-page = "https://github.com/timothyb0912/learn_arcade_work"
 requires = [
     "arcade",
 ]
-requires-python="3.8"
+requires-python=">=3.8"
 keywords= "drawing,games,arcade,gifs"
 description-file = "README.md"
 classifiers = [

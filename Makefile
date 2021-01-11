@@ -1,12 +1,12 @@
-## environment : Create the project's virtual environment with conda
+## environment : Create the project's virtual environment with conda and mamba
 .PHONY : env
 env :
-	conda create -f environment.yml
-	conda activate arcade
+	conda install mamba
+	mamba env create -n arcade -f environment.yml
 
 ## install     : Install project package locally and install pre-commit.
 .PHONY : install
-install : env
+install :
 	pip-compile requirements.in
 	pip install -r requirements.txt
 	flit install --pth-file
