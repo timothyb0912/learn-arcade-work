@@ -1,2 +1,20 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "learn_arcade_work"
+author = "Timothy Brathwaite"
+author-email = "timothyb0912@gmail.com"
+home-page = "https://github.com/timothyb0912/learn_arcade_work"
+requires = [
+    "arcade",
+]
+requires-python="3.8"
+keywords= "drawing,games,arcade,gifs"
+description-file = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 2 - Pre-Alpha",
+]
