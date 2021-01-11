@@ -1,6 +1,8 @@
 arcade
+flit
 jupytext
 pip-tools
+pre-commit
 pyprojroot
 pyscaffold
 pyscaffoldext-pyproject
