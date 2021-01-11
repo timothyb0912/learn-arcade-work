@@ -1,4 +1,4 @@
-name: learn-arcade-work
+name: arcade
 channels:
   - defaults
   - conda-forge
@@ -6,7 +6,8 @@ channels:
 dependencies:
   - python==3.8.5
   - pip
+  - pip-tools
   # Above, list any packages that MUST be installed via conda
   - pip:
     # Install all pip-installable packages
-    - -r file:requirements.txt
+    # - -r file:requirements.txt
