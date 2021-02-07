@@ -5,6 +5,8 @@ For this lab, I will focus on a drawing that is practically useful to me
 at the moment: an image of a person.
 
 A person image is generically useful, and I plan to use it in causal diagrams.
+
+Inspiration: https://thenounproject.com/search/?q=afro&i=2643409
 """
 from typing import Tuple
 
